@@ -1,0 +1,30 @@
+{
+    "name": "verdient/wan-jing-da",
+    "description": "WanJingDa",
+    "type": "library",
+    "keywords": [
+        "WanJingDa"
+    ],
+    "homepage": "https://github.com/Verdient/wan-jing-da",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/wan-jing-da/issues",
+        "source": "https://github.com/Verdient/wan-jing-da"
+    },
+    "require": {
+        "php": "^8.0",
+        "verdient/http-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\WanJingDa\\": "src"
+        }
+    }
+}
